@@ -4,6 +4,7 @@ TransitionKit
 [![Build Status](https://travis-ci.org/blakewatters/TransitionKit.png?branch=master,development)](https://travis-ci.org/blakewatters/TransitionKit) 
 ![Pod Version](https://cocoapod-badges.herokuapp.com/v/TransitionKit/badge.png) 
 ![Pod Platform](https://cocoapod-badges.herokuapp.com/p/TransitionKit/badge.png)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 **A simple, elegantly designed block based API for implementing State Machines in Objective-C**
 
@@ -20,7 +21,9 @@ TransitionKit is a small Cocoa library that provides an API for implementing a s
 * Thorougly unit tested. You know it works and can make changes with confidence.
 * Lightweight. TransitionKit has no dependencies beyond the Foundation library and works on iOS and Mac OS X.
 
-## Installation via CocoaPods
+## Installation 
+
+### Via CocoaPods
 
 The recommended approach for installing TransitionKit is via the [CocoaPods](http://cocoapods.org/) package manager, as it provides flexible dependency management and dead simple installation. For best results, it is recommended that you install via CocoaPods **>= 0.16.0** using Git **>= 1.8.0** installed via Homebrew.
 
@@ -52,6 +55,16 @@ Open your project in Xcode from the .xcworkspace file (not the usual project fil
 
 ``` bash
 $ open MyProject.xcworkspace
+```
+
+### Via Carthage
+
+Instructions for using Carthage can be found [here](https://github.com/Carthage/Carthage).
+
+Add the following to your Cartfile:
+
+```
+github "blakewatters/TransitionKit"
 ```
 
 ## Examples
